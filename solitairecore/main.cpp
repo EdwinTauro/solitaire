@@ -1,5 +1,10 @@
 #include "main.h"
+#include <iostream>
 
+
+Logger m_cLogger;
+
+SolitaireGameEngine cSge;
 
 EXPORT int Square( int X)	// Return Square
  {
@@ -12,9 +17,22 @@ EXPORT int Cube( int X)		// Return Cube
  }
 
 
+EXPORT int NewGame()       // Start new game
+{
+
+    m_cLogger.Info("New game");
+
+    cSge.Init();
+
+    return 0;
+}
 
 
-
+EXPORT bool IsValidMove(int fromPosition, int toPosition)
+{
+//    cout << "from position " << fromPosition << "to position " < toPosition;
+    return true;
+}
 
 
 

@@ -23,5 +23,8 @@ int callSolitaireCore(void)
 
     cout << "Sqaure of " << value << " is: " << square << endl;
     cout << "Cube of " << value << " is: " << cube << endl;
+
+    NewGame();
+
     return 0;
 }

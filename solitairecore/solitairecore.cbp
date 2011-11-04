@@ -42,18 +42,30 @@
 		</Build>
 		<Unit filename="abstractbucket.cpp" />
 		<Unit filename="abstractbucket.h" />
+		<Unit filename="basesocket.cpp" />
+		<Unit filename="basesocket.h" />
 		<Unit filename="board.cpp" />
 		<Unit filename="board.h" />
 		<Unit filename="boardrule.cpp" />
 		<Unit filename="boardrule.h" />
 		<Unit filename="boardstate.cpp" />
 		<Unit filename="boardstate.h" />
+		<Unit filename="centralzonesocket.cpp" />
+		<Unit filename="centralzonesocket.h" />
+		<Unit filename="eastzonesocket.cpp" />
+		<Unit filename="eastzonesocket.h" />
 		<Unit filename="logger.cpp" />
 		<Unit filename="logger.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="main.h" />
+		<Unit filename="northzonesocket.cpp" />
+		<Unit filename="northzonesocket.h" />
 		<Unit filename="solitairegameengine.cpp" />
 		<Unit filename="solitairegameengine.h" />
+		<Unit filename="southzonesocket.cpp" />
+		<Unit filename="southzonesocket.h" />
+		<Unit filename="westzonesocket.cpp" />
+		<Unit filename="westzonesocket.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

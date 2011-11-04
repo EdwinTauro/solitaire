@@ -1,5 +1,6 @@
 #include <iostream>
 #include "../solitairecore/main.h"
+#include "../solitairecore/boardstate.h"
 
 using namespace std;
 
@@ -24,7 +25,7 @@ int callSolitaireCore(void)
     cout << "Sqaure of " << value << " is: " << square << endl;
     cout << "Cube of " << value << " is: " << cube << endl;
 
-    NewGame();
+    BoardState boardState = NewGame();
 
     return 0;
 }

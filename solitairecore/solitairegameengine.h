@@ -1,5 +1,7 @@
 #include <iostream>
 #include "logger.h"
+#include "board.h"
+
 #ifndef SOLITAIREGAMEENGINE_H
 #define SOLITAIREGAMEENGINE_H
 

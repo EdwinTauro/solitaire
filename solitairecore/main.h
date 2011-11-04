@@ -2,6 +2,7 @@
 #include <iostream>
 #include "logger.h"
 #include "solitairegameengine.h"
+#include "boardstate.h"
 
 #define EXPORT __declspec (dllexport)
 
@@ -9,7 +10,7 @@
 EXPORT int Square( int X);
 EXPORT int Cube( int X);
 
-EXPORT int NewGame();
+EXPORT BoardState NewGame();
 EXPORT bool IsValidMove(int fromPosition, int toPosition);
 
 /*

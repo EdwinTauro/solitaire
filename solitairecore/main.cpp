@@ -17,14 +17,15 @@ EXPORT int Cube( int X)		// Return Cube
  }
 
 
-EXPORT int NewGame()       // Start new game
+EXPORT BoardState NewGame()       // Start new game
 {
+    BoardState cBoardState;
 
     m_cLogger.Info("New game");
 
     cSge.Init();
 
-    return 0;
+    return cBoardState;
 }
 
 

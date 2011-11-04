@@ -15,7 +15,7 @@ SolitaireGameEngine::~SolitaireGameEngine()
 int SolitaireGameEngine::Init()
 {
     //Create new board
-    Board board;
+    Board cBoard;
 
     return 0;
 }

@@ -6,8 +6,9 @@
 class SouthZoneSocket : public BaseSocket
 {
     public:
-        SouthZoneSocket(char zone);
+        SouthZoneSocket(void);
         virtual ~SouthZoneSocket();
+
     protected:
     private:
 };

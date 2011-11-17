@@ -1,12 +1,13 @@
 #include "basesocket.h"
 
-BaseSocket::BaseSocket(char zone)
+BaseSocket::BaseSocket(ZoneEnum zone)
 {
     //ctor
-    m_cZone = zone;
+    m_eZone = zone;
 }
 
 BaseSocket::~BaseSocket()
 {
     //dtor
 }
+

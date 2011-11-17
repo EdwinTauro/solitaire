@@ -1,8 +1,9 @@
 #include "northzonesocket.h"
 
-NorthZoneSocket::NorthZoneSocket(char zone) : BaseSocket(zone)
+
+NorthZoneSocket::NorthZoneSocket(void) : BaseSocket(north)
 {
-    //ctor
+
 
 }
 

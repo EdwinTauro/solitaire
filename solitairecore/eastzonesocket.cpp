@@ -1,6 +1,6 @@
 #include "eastzonesocket.h"
 
-EastZoneSocket::EastZoneSocket(char zone) : BaseSocket(zone)
+EastZoneSocket::EastZoneSocket() : BaseSocket(east)
 {
     //ctor
 }

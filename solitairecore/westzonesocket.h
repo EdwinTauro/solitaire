@@ -7,7 +7,7 @@
 class WestZoneSocket : public BaseSocket
 {
     public:
-        WestZoneSocket(char zone);
+        WestZoneSocket();
         virtual ~WestZoneSocket();
     protected:
     private:

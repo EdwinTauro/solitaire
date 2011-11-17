@@ -1,6 +1,6 @@
 #include "westzonesocket.h"
 
-WestZoneSocket::WestZoneSocket(char zone) : BaseSocket(zone)
+WestZoneSocket::WestZoneSocket() : BaseSocket(west)
 {
     //ctor
 }

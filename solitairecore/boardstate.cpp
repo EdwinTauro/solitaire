@@ -4,9 +4,5 @@ BoardState::BoardState()
 {
     //ctor
 }
-/*
-BoardState::~BoardState()
-{
-    //dtor
-}
-*/
+
+

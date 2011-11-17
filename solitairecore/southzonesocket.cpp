@@ -1,6 +1,6 @@
 #include "southzonesocket.h"
 
-SouthZoneSocket::SouthZoneSocket(char zone) : BaseSocket(zone)
+SouthZoneSocket::SouthZoneSocket() : BaseSocket(south)
 {
     //ctor
 }

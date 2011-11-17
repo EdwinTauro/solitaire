@@ -7,10 +7,13 @@
 class NorthZoneSocket : public BaseSocket
 {
     public:
-        NorthZoneSocket(char zone);
+        NorthZoneSocket(void);
         virtual ~NorthZoneSocket();
+
     protected:
+
     private:
+        int position;
 };
 
 #endif // NORTHZONESOCKET_H

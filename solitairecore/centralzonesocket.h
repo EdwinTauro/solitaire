@@ -7,7 +7,7 @@
 class CentralZoneSocket : public BaseSocket
 {
     public:
-        CentralZoneSocket(char zone);
+        CentralZoneSocket();
         virtual ~CentralZoneSocket();
     protected:
     private:

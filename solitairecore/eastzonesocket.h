@@ -7,7 +7,7 @@
 class EastZoneSocket : public BaseSocket
 {
     public:
-        EastZoneSocket(char zone);
+        EastZoneSocket();
         virtual ~EastZoneSocket();
     protected:
     private:

@@ -1,6 +1,6 @@
 #include "centralzonesocket.h"
 
-CentralZoneSocket::CentralZoneSocket(char zone) : BaseSocket(zone)
+CentralZoneSocket::CentralZoneSocket() : BaseSocket(central)
 {
     //ctor
 }

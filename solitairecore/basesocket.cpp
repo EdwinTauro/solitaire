@@ -4,6 +4,7 @@ BaseSocket::BaseSocket(ZoneEnum zone)
 {
     //ctor
     m_eZone = zone;
+
 }
 
 BaseSocket::~BaseSocket()

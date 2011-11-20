@@ -5,16 +5,33 @@ Board::Board()
 {
 
     //ctor
-    for (int i=0; i < 6; i++)
-    {
-        m_acNorthZoneSockets[i].setPosition(i);
-        m_acSouthZoneSockets[i].setPosition(i);
-        m_acEastZoneSockets[i].setPosition(i);
-        m_acWestZoneSockets[i].setPosition(i);
-    }
+    char startY = 'a';
 
-    for (int i=0; i < 9; i++)
-        m_acCentralZoneSockets[i].setPosition(i);
+    for (int x=1, i=0; i < 6; i++, x++)
+    {
+        for (int y=(int)startY, j=0; j < 6; j++, y++)
+        {
+            m_acNorthZoneSockets[i].setPositionX(x);
+            m_acNorthZoneSockets[i].setPositionY(y);
+            m_acNorthZoneSockets[i].setPlugged(true);
+
+            m_acSouthZoneSockets[i].setPositionX(x);
+            m_acSouthZoneSockets[i].setPositionY(y);
+            m_acSouthZoneSockets[i].setPlugged(true);
+
+            m_acEastZoneSockets[i].setPositionX(x);
+            m_acEastZoneSockets[i].setPositionY(y);
+            m_acWestZoneSockets[i].setPlugged(true);
+
+            m_acWestZoneSockets[i].setPositionX(x);
+            m_acWestZoneSockets[i].setPositionY(y);
+            m_acWestZoneSockets[i].setPlugged(true);
+
+            m_acCentralZoneSockets[i].setPositionX(x);
+            m_acCentralZoneSockets[i].setPositionY(y);
+            m_acCentralZoneSockets[i].setPlugged(true);
+        }
+    }
 }
 
 Board::~Board()

@@ -12,10 +12,13 @@ SolitaireGameEngine::~SolitaireGameEngine()
     //dtor
 }
 
-int SolitaireGameEngine::Init()
+BoardState SolitaireGameEngine::Init()
 {
-    //Create new board
-    Board cBoard;
 
-    return 0;
+
+    m_cLogger.Info("Initializing board for new game ....");
+    BoardState cBoardState;
+    m_cLogger.Info("Initializing board Done");
+
+    return cBoardState;
 }

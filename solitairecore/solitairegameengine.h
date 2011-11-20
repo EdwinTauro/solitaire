@@ -1,6 +1,6 @@
 #include <iostream>
 #include "logger.h"
-#include "board.h"
+#include "boardstate.h"
 
 #ifndef SOLITAIREGAMEENGINE_H
 #define SOLITAIREGAMEENGINE_H
@@ -11,8 +11,9 @@ class SolitaireGameEngine
     public:
         SolitaireGameEngine();
         virtual ~SolitaireGameEngine();
-        int Init();
+        BoardState Init();
     protected:
+        Logger m_cLogger;
     private:
 };
 

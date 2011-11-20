@@ -40,8 +40,6 @@
 				</Linker>
 			</Target>
 		</Build>
-		<Unit filename="abstractbucket.cpp" />
-		<Unit filename="abstractbucket.h" />
 		<Unit filename="basesocket.cpp" />
 		<Unit filename="basesocket.h" />
 		<Unit filename="board.cpp" />

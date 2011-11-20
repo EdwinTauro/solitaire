@@ -19,11 +19,10 @@ EXPORT int Cube( int X)		// Return Cube
 
 EXPORT BoardState NewGame()       // Start new game
 {
-    BoardState cBoardState;
 
-    m_cLogger.Info("New game");
-
-    cSge.Init();
+    m_cLogger.Info("Initializing game engine ....");
+    BoardState cBoardState = cSge.Init();
+    m_cLogger.Info("Initializing game engine Done");
 
     return cBoardState;
 }
